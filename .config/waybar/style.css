@@ -1,0 +1,74 @@
+* {
+  border: none;
+  min-height: 0;
+  font-weight: bold;
+  font-family: ElysiaOSNew12;
+  font-size: 14px;
+
+}
+window#waybar {
+  background: rgba(92, 83, 109, 0);
+}
+
+window#waybar.hidden {
+  opacity: 0.5;
+}
+
+window#waybar.empty {
+  background-color: transparent;
+}
+
+window#waybar.empty #window {
+  padding: 0px;
+  border: 0px;
+  background-color: transparent;
+}
+
+tooltip {
+  opacity: 1;
+  border-radius: 0px; 
+}
+
+tooltip label {
+  padding: 10px;
+  color: darkcyan;
+  }
+
+/* Modules left */
+.modules-right, .modules-left, .modules-center {
+  color: #ffffff;
+  padding: 1px 6px;
+  margin: 15px 3px;
+  border-radius: 46px;
+  border: solid 0px #7077bd;
+  background-color: rgba(14, 13, 13, 0.629);
+}
+
+#workspaces button {
+    color: #ffffff;
+    padding: 5px 7px 5px 5px;
+    margin-left: 0em;
+    margin-right: 0em;
+    transition: all 0.25s ease;
+    font-size: 120%;
+}
+
+#workspaces button.active {
+    color: black;
+    background-color: transparent;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+#workspaces button:hover {
+    background-color: rgb(211, 41, 41);
+    color: black;
+    border-radius: 8px;
+}
+
+#custom-cava 
+ {
+  color: #dcf4f1;
+}
+
+

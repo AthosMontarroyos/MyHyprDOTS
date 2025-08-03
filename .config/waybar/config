@@ -1,0 +1,56 @@
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 0,
+"margin-left": 0,
+"margin-right": 0,
+"margin-bottom": 0,
+
+"modules-left": [
+  "hyprland/workspaces",
+  "custom/separator",
+   "image#iconcpu",
+  "cpu",
+  "custom/separator",
+  "image#002",
+  "custom/separator",
+  "image#iconram",
+  "memory",
+  "custom/separator",
+  "custom/cava",
+  "custom/separator",
+   "image#005"
+	],
+
+"modules-center": [
+	"hyprland/window#icon",
+	"hyprland/window#title",
+	"custom/swaync"
+	], 
+
+"modules-right": [
+	"tray",
+	"custom/miniseparator",
+	"mpris",
+	"image#003",
+	"custom/separator",
+	"pulseaudio",
+	"image#009",
+	"custom/separator",
+	"clock",
+	"image#Clock",
+	"custom/separator",
+	"image#010",
+	"custom/separator",
+	"custom/nmtui",
+	"custom/separator",
+	"battery",
+	"image#iconbattery"
+	]
+}
